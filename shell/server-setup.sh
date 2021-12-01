@@ -8,8 +8,8 @@ source ~/.bashrc
 
 echo 'Installing Node: 16.10.0'
 
-nvm install 16.10.0
-npm i -g npm
+source ~/.bashrc && nvm install 16.10.0
+source ~/.bashrc && npm i -g npm
 
 echo 'Installing MongoDB: 5.0.3'
 
